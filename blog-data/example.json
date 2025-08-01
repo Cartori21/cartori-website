@@ -1,0 +1,72 @@
+{
+  "id": "example-blog-post",
+  "title": "Example Blog Post Title: How to Create Engaging Content",
+  "description": "This is an example blog post showing the JSON structure and available content types.",
+  "image": "/images/blog/example.jpg",
+  "tags": ["EXAMPLE", "TUTORIAL", "CONTENT"],
+  "readTime": "3 MIN READ",
+  "date": "January 1, 2025",
+  "portfolio": {
+    "type": "youtube",
+    "src": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "alt": "Example YouTube video"
+  },
+  "content": [
+    {
+      "type": "paragraph",
+      "content": "This is a regular paragraph. You can include highlighted words by adding them to the highlights array.",
+      "highlights": ["highlighted words"]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "content": "This is a Level 2 Heading"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "content": "This is a Level 3 Heading"
+    },
+    {
+      "type": "paragraph",
+      "content": "Here's another paragraph with multiple highlighted terms to show how the highlighting system works.",
+      "highlights": ["multiple highlighted terms", "highlighting system"]
+    },
+    {
+      "type": "list",
+      "content": [
+        "First list item with some highlighted text",
+        "Second list item",
+        "Third list item with more highlights"
+      ],
+      "highlights": ["highlighted text", "highlights"]
+    },
+    {
+      "type": "tip-box",
+      "content": "This is a tip box. Use this for helpful tips, quick fixes, or important advice that stands out from regular content.",
+      "highlights": ["tip box"]
+    },
+    {
+      "type": "example-box",
+      "content": "This is an example box. Use this to show examples, case studies, or detailed explanations that need special formatting."
+    },
+    {
+      "type": "warning-box",
+      "content": "This is a warning box. Use this for calls-to-action, important warnings, or promotional content."
+    },
+    {
+      "type": "quote",
+      "content": "This is a blockquote. Use this for quotes, testimonials, or important statements that should stand out."
+    },
+    {
+      "type": "code",
+      "content": "function example() {\n  console.log('This is a code block');\n  return 'Perfect for showing code examples';\n}",
+      "language": "javascript"
+    },
+    {
+      "type": "image",
+      "src": "/images/example-image.jpg",
+      "alt": "Description of the image for accessibility"
+    }
+  ]
+}
