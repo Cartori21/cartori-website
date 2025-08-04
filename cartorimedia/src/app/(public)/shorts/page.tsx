@@ -44,22 +44,22 @@ const ShortsPage = () => {
     };
 
     const baseThumbnailImages = [
-        "/images/thumbnails-shorts-random/1.png",
-        "/images/thumbnails-shorts-random/2.png",
-        "/images/thumbnails-shorts-random/3.png",
-        "/images/thumbnails-shorts-random/4.png",
-        "/images/thumbnails-shorts-random/5.png",
-        "/images/thumbnails-shorts-random/6.png",
-        "/images/thumbnails-shorts-random/7.png",
-        "/images/thumbnails-shorts-random/8.png",
-        "/images/thumbnails-shorts-random/1.png",
-        "/images/thumbnails-shorts-random/2.png",
-        "/images/thumbnails-shorts-random/3.png",
-        "/images/thumbnails-shorts-random/4.png",
-        "/images/thumbnails-shorts-random/5.png",
-        "/images/thumbnails-shorts-random/6.png",
-        "/images/thumbnails-shorts-random/7.png",
-        "/images/thumbnails-shorts-random/8.png",
+        "/thumbnails-shorts-random/1.png",
+        "/thumbnails-shorts-random/2.png",
+        "/thumbnails-shorts-random/3.png",
+        "/thumbnails-shorts-random/4.png",
+        "/thumbnails-shorts-random/5.png",
+        "/thumbnails-shorts-random/6.png",
+        "/thumbnails-shorts-random/7.png",
+        "/thumbnails-shorts-random/8.png",
+        "/thumbnails-shorts-random/9.png",
+        "/thumbnails-shorts-random/10.png",
+        "/thumbnails-shorts-random/11.png",
+        "/thumbnails-shorts-random/12.png",
+        "/thumbnails-shorts-random/13.png",
+        "/thumbnails-shorts-random/14.png",
+        "/thumbnails-shorts-random/15.png",
+        "/thumbnails-shorts-random/16.png",
     ];
 
     const [thumbnailImages, setThumbnailImages] = useState(baseThumbnailImages);
