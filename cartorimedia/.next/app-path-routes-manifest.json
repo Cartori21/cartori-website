@@ -1,11 +1,11 @@
 {
   "/_not-found/page": "/_not-found",
   "/(public)/blog/[slug]/page": "/blog/[slug]",
-  "/(public)/blog/page": "/blog",
-  "/(public)/qr/page": "/qr",
   "/(public)/short-form/page": "/short-form",
+  "/(public)/qr/page": "/qr",
   "/(public)/shorts/page": "/shorts",
   "/(public)/thumbnails/page": "/thumbnails",
+  "/(public)/blog/page": "/blog",
   "/(public)/videos/page": "/videos",
   "/(public)/youtube/page": "/youtube",
   "/(public)/page": "/"

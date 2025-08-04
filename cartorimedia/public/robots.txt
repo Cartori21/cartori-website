@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cartorimedia.com
+
+# Sitemaps
+Sitemap: https://cartorimedia.com/sitemap.xml
