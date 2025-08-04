@@ -2,5 +2,11 @@
 module.exports = {
   siteUrl: 'https://cartorimedia.com',
   generateRobotsTxt: true,
-  sitemapSize: 5000,
-}
+  sitemapSize: 7000,
+  changefreq: 'daily',
+  priority: 0.7,
+  outDir: './public',
+  generateIndexSitemap: true,
+  format: true,
+  exclude: [],
+};
